@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 let choices = ["rock", "paper", "scissors"];
 
 let cpu =  Math.floor(Math.random() * 3);
